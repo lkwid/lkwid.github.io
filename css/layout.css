@@ -1,0 +1,93 @@
+h1 {
+	display: inline-block;
+}
+
+span.icon:before {
+	vertical-align: text-top;
+	margin-left: 2em;
+	margin-right: 0.2em;
+	
+}
+
+i.material-icons {
+	vertical-align: middle;
+	margin-left: 1em;
+	margin-right: 0.2em;
+}
+
+#main {
+	max-width: 21cm;
+	margin: 0 auto;
+}
+
+#name {
+	padding: 0.8em;
+	margin-top: 0;	
+}
+
+.small-box img {
+	max-width: 140px;
+	position: relative;
+	margin: -30px 0 -34px -60px;		
+	float: left;
+}
+
+.row {
+	margin: 0 0;	
+}
+
+.box {
+	display: inline-block;
+	margin: 0.1em 0 0.1em;
+	padding: 0.3em;
+}
+
+.header-box {	
+	width: 100%;
+}
+
+.small-box {
+	width: 17%;	
+}
+
+.medium-box {
+	width: 30%;			
+}
+
+.big-box {	
+	width: 82%;
+}
+
+.content-box {
+	width: 100%;	
+}
+
+.first-level li {
+	position: relative;
+	padding-left: 1.5em;
+	margin-left: 0.5em;
+}
+
+.first-level li:before {
+	vertical-align: text-top;
+	position: absolute;	
+	left: 0;
+	
+}
+
+.second-level li {
+	position: relative;
+	padding-left: 1em;	
+}
+
+.second-level li:before {
+	
+	position: absolute;
+	left: 0;	
+	vertical-align: text-top;	
+}
+
+.footer-box {
+	width: 100%;
+	margin-top: 0.1em;	
+}
