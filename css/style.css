@@ -18,11 +18,21 @@ time, mark, audio, video {
 
 * {
 	box-sizing: border-box;
-	font-family: monospace;
+	font-family: 'Roboto', sans-serif;
+    font-size: small;
+    line-height: 125%;
 }
 
 ul {
 	list-style-type: none;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+h6 {
+    font-size: smaller;
 }
 
 span.icon:before {
@@ -62,50 +72,4 @@ i.material-icons {
 	content: "chevron_right";
 	font-family: Material Icons;
 	font-size: 90%;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-    color: white;   
-    float: right;     
-}
-
-.dropbtn:after {
-	text-transform: none;
-    content:  "language";
-    font-family: Material Icons;
-    font-size: 2em;  
-    vertical-align: middle;
-    margin-left: 0.2em;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #08F;
-    min-width: 40px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    right: 0;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-	background-color: #08F;
-	color:  white;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #05D;    
 }
