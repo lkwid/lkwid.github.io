@@ -1,5 +1,6 @@
 h1 {
 	display: inline-block;
+	padding: 0em;
 }
 
 span.icon:before {
@@ -95,7 +96,7 @@ i.material-icons {
 .dropdown {
     position: relative;
     display: inline-block;
-    margin-top: 5px;
+    margin-top: 4px;
     color: white;   
     float: right;     
 }
@@ -104,7 +105,7 @@ i.material-icons {
 	text-transform: none;
     content:  "language";
     font-family: Material Icons;
-    font-size: 2em;    
+    font-size: 1.8em;    
     margin-left: 0.2em;
 }
 
