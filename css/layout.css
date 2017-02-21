@@ -16,6 +16,10 @@ i.material-icons {
 	margin-right: 0.2em;
 }
 
+#name i.material-icons {
+    vertical-align: middle;
+}
+
 #main {
 	max-width: 21cm;
 	margin: 0 auto;
@@ -29,7 +33,7 @@ i.material-icons {
 .small-box img {
 	max-width: 140px;
 	position: relative;
-	margin: -30px 0 -34px -60px;		
+	margin: -30px 0 -32px -60px;		
 	float: left;
 }
 
@@ -94,19 +98,10 @@ i.material-icons {
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
-    margin-top: 4px;
+    position: relative;   
+    display: inline-block;       
     color: white;   
     float: right;     
-}
-
-.dropbtn:after {
-	text-transform: none;
-    content:  "language";
-    font-family: Material Icons;
-    font-size: 1.8em;    
-    margin-left: 0.2em;
 }
 
 .dropdown-content {

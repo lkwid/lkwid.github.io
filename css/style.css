@@ -45,6 +45,10 @@ i.material-icons {
 	font-size: 150%;
 }
 
+#name i.material-icons {
+    font-size: 1.7em;
+}
+
 #main {
 	border: 0.1em solid #05D;
 	border-radius: 5px;
