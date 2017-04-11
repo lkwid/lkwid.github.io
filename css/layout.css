@@ -18,6 +18,8 @@ i.material-icons {
 
 #name i.material-icons {
     vertical-align: middle;
+    float: right;
+    color: white;
 }
 
 #main {
@@ -32,8 +34,8 @@ i.material-icons {
 }
 
 .small-box img {
-	max-width: 11em;			
-	margin: -1.1em -2.5em -2em;
+	max-width: 10em;			
+	margin: -1.2em -2.5em -2em;
 	position: relative;
 }
 
