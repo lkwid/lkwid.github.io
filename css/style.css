@@ -19,8 +19,8 @@ time, mark, audio, video {
 * {
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
-    font-size: 1em;
-    line-height: 125%;
+    font-size: 0.99em;
+    line-height: 130%;
 }
 
 ul {
