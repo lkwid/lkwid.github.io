@@ -34,9 +34,9 @@ i.material-icons {
 }
 
 .small-box img {
-	max-width: 11em;			
-	margin: -1.2em -3.5em -2em;
-	position: relative;
+	max-width: 11.5em;		
+	margin: -1.4em -3.5em -2em;
+	position: relative;	
 }
 
 .row::after{	
